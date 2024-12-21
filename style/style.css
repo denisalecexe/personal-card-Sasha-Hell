@@ -50,9 +50,10 @@ body {
   width: 300px;
   position: absolute;
   top: 55%;
-  right: 35%;
+  /* right: 50%; */
+  left: 35%;
   filter: drop-shadow(8px 8px 10px #232b2b);
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
   opacity: 0.7;
 }
 
@@ -62,26 +63,37 @@ body {
   opacity: 1;
 }
 
-.text-card {
+.text-card-uno,
+.text-card-due {
   color: #d6d6d6;
   padding: 0 20px 0 0;
+}
+
+.text-card-uno {
   text-align: right;
 }
 
-.text-card > h1,
-.text-card > h3,
-.text-card > p > b {
+.text-card-due {
+  padding-left: 20px;
+}
+
+.text-card-uno > h1,
+.text-card-uno > h3,
+.text-card-uno > p > b
+.text-card-due > p > b {
   filter: drop-shadow(1px 1px 5px #232b2b);
   opacity: 0.8;
 }
 
-.text-card > h1:hover,
-.text-card > h3:hover,
-.text-card > p > b:hover {
+.text-card-uno > h1:hover,
+.text-card-uno > h3:hover,
+.text-card-uno > p > b:hover
+.text-card-due > p > b:hover {
   opacity: 1;
 }
 
-.text-card > p > em:hover {
+.text-card-uno > p > em:hover,
+.text-card-due > p > em:hover {
   filter: drop-shadow(5px 5px 5px #232b2b);
 }
 
