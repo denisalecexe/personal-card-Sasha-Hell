@@ -79,7 +79,8 @@ body {
 
 .text-card-uno > h1,
 .text-card-uno > h3,
-.text-card-uno > p > b
+.text-card-uno > p > b,
+.text-card-due > p > b,
 .text-card-due > p > b {
   filter: drop-shadow(1px 1px 5px #232b2b);
   opacity: 0.8;
@@ -87,7 +88,8 @@ body {
 
 .text-card-uno > h1:hover,
 .text-card-uno > h3:hover,
-.text-card-uno > p > b:hover
+.text-card-uno > p > b:hover,
+.text-card-due > p > b:hover,
 .text-card-due > p > b:hover {
   opacity: 1;
 }
