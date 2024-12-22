@@ -17,6 +17,16 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#toggleButton {
+  width: 350px;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 3px #232b2b solid;
+  background-color: #335653;
+}
+
 .card {
   background: radial-gradient(circle, 
   #81d8d0, 
@@ -31,9 +41,12 @@ body {
   border-radius: 20px;
   width: 500px;
   height: 560px;
-  margin: 10px;
   aspect-ratio: 16/9;
   filter: drop-shadow(5px 5px 20px #000000);
+}
+
+.hidden {
+  display: none;
 }
 
 .image-sasha {
